@@ -1,5 +1,6 @@
-<p align="center"><img src="docs/assets/metachain_horizontal_logo.png" width="600"></p>
-
+ <a href="https://metachain-i.co/">
+    <img src="https://avatars.githubusercontent.com/u/152378696" alt="Logo" width="80" height="80">
+  </a>
 # metachain Token Bridge Contracts
 
 The metachain Token Bridge is a decentralized application that uses [Nitro's](https://github.com/META-MetaChain/nitro) METAitrary cross-chain messaging system to implement an ERC20 token bridge between an EVM compatible base-chain and an metachain chain.
