@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/assets/metachain_horizontal_logo.png" width="600"></p>
+    <img src="https://metachain-i.co/logo.svg" alt="Logo" width="80" height="80">
 
 # metachain Token Bridge Contracts
 
