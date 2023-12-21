@@ -1,0 +1,44 @@
+version: 2
+updates:
+  - package-ecosystem: gomod
+    directory: '/packages/META-node-core'
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    target-branch: master
+  - package-ecosystem: gomod
+    directory: '/packages/META-rpc-node'
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    target-branch: master
+  - package-ecosystem: gomod
+    directory: '/packages/META-avm-cpp'
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    target-branch: master
+  - package-ecosystem: gomod
+    directory: '/packages/META-evm'
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    target-branch: master
+  - package-ecosystem: gomod
+    directory: '/packages/META-util'
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    target-branch: master
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    target-branch: master
+  - package-ecosystem: gitsubmodule
+    directory: '/packages/META-avm-cpp/external'
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    target-branch: master
