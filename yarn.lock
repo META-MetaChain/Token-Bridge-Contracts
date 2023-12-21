@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@META-MetaChain/upgrade-executor@1.1.0-beta.0":
+  version "1.1.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@META-MetaChain/upgrade-executor/-/upgrade-executor-1.1.0-beta.0.tgz#c4b1375176546a18aaef01a43956abfb58250e0a"
+  integrity sha512-mpn6PHjH/KDDjNX0pXHEKdyv8m6DVGQiI2nGzQn0JbM1nOSHJpWx6fvfjtH7YxHJ6zBZTcsKkqGkFKDtCfoSLw==
+  dependencies:
+    "@openzeppelin/contracts" "4.7.3"
+    "@openzeppelin/contracts-upgradeable" "4.7.3"
+
 "@aashutoshrathi/word-wrap@^1.2.3":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
@@ -11,27 +19,6 @@
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@aduh95/viz.js/-/viz.js-3.7.0.tgz#a20d86c5fc8f6abebdc39b96a4326e10375d77c0"
   integrity sha512-20Pk2Z98fbPLkECcrZSJszKos/OgtvJJR3NcbVfgCJ6EQjDNzW2P1BKqImOz3tJ952dvO2DWEhcLhQ1Wz1e9ng==
-
-"@metachain/nitro-contracts@^1.0.0-beta.8":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@metachain/nitro-contracts/-/nitro-contracts-1.0.2.tgz#c73dce72b8f969a5909d5aaef6da80681c667475"
-  integrity sha512-Y+cXIQNsy9UNANnFrDGKhHzNmOWttxpXP0/uJFTRmS+rgS4ozlr81/UmBo3tX6uWjziDtquhYRuG3wx17talOQ==
-  dependencies:
-    "@openzeppelin/contracts" "4.5.0"
-    "@openzeppelin/contracts-upgradeable" "4.5.2"
-    patch-package "^6.4.7"
-  optionalDependencies:
-    sol2uml "2.2.0"
-
-"@metachain/sdk@^3.1.3":
-  version "3.1.9"
-  resolved "https://registry.yarnpkg.com/@metachain/sdk/-/sdk-3.1.9.tgz#a511bc70cdd0a947445e4e27833c242ccb77ddf5"
-  integrity sha512-7Rf75cKmQ8nutTV+2JAOXcI6DKG4D7QCJz1JL2nq6hUpRuw4jyKn+irLqJtcIExssylLWt3t/pKV6fYseCYKNg==
-  dependencies:
-    "@ethersproject/address" "^5.0.8"
-    "@ethersproject/bignumber" "^5.1.1"
-    "@ethersproject/bytes" "^5.0.8"
-    ethers "^5.1.0"
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -636,6 +623,27 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@metachain/nitro-contracts@^1.0.0-beta.8":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@metachain/nitro-contracts/-/nitro-contracts-1.0.2.tgz#c73dce72b8f969a5909d5aaef6da80681c667475"
+  integrity sha512-Y+cXIQNsy9UNANnFrDGKhHzNmOWttxpXP0/uJFTRmS+rgS4ozlr81/UmBo3tX6uWjziDtquhYRuG3wx17talOQ==
+  dependencies:
+    "@openzeppelin/contracts" "4.5.0"
+    "@openzeppelin/contracts-upgradeable" "4.5.2"
+    patch-package "^6.4.7"
+  optionalDependencies:
+    sol2uml "2.2.0"
+
+"@metachain/sdk@^3.1.3":
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/@metachain/sdk/-/sdk-3.1.9.tgz#a511bc70cdd0a947445e4e27833c242ccb77ddf5"
+  integrity sha512-7Rf75cKmQ8nutTV+2JAOXcI6DKG4D7QCJz1JL2nq6hUpRuw4jyKn+irLqJtcIExssylLWt3t/pKV6fYseCYKNg==
+  dependencies:
+    "@ethersproject/address" "^5.0.8"
+    "@ethersproject/bignumber" "^5.1.1"
+    "@ethersproject/bytes" "^5.0.8"
+    ethers "^5.1.0"
+
 "@metamask/eth-sig-util@^4.0.0":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@metamask/eth-sig-util/-/eth-sig-util-4.0.1.tgz#3ad61f6ea9ad73ba5b19db780d40d9aae5157088"
@@ -921,14 +929,6 @@
   resolved "https://registry.yarnpkg.com/@nomiclabs/hardhat-waffle/-/hardhat-waffle-2.0.6.tgz#d11cb063a5f61a77806053e54009c40ddee49a54"
   integrity sha512-+Wz0hwmJGSI17B+BhU/qFRZ1l6/xMW82QGXE/Gi+WTmwgJrQefuBs1lIf7hzQ1hLk6hpkvb/zwcNkpVKRYTQYg==
 
-"@META-MetaChain/upgrade-executor@1.1.0-beta.0":
-  version "1.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@META-MetaChain/upgrade-executor/-/upgrade-executor-1.1.0-beta.0.tgz#c4b1375176546a18aaef01a43956abfb58250e0a"
-  integrity sha512-mpn6PHjH/KDDjNX0pXHEKdyv8m6DVGQiI2nGzQn0JbM1nOSHJpWx6fvfjtH7YxHJ6zBZTcsKkqGkFKDtCfoSLw==
-  dependencies:
-    "@openzeppelin/contracts" "4.7.3"
-    "@openzeppelin/contracts-upgradeable" "4.7.3"
-
 "@openzeppelin/contracts-upgradeable@4.5.2":
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.5.2.tgz#90d9e47bacfd8693bfad0ac8a394645575528d05"
@@ -972,6 +972,11 @@
     minimist "^1.2.7"
     proper-lockfile "^4.1.1"
     solidity-ast "^0.4.26"
+
+"@prettier/sync@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@prettier/sync/-/sync-0.3.0.tgz#91f2cfc23490a21586d1cf89c6f72157c000ca1e"
+  integrity sha512-3dcmCyAxIcxy036h1I7MQU/uEEBq8oLwf1CE3xeze+MPlgkdlb/+w6rGR/1dhp6Hqi17fRS6nvwnOzkESxEkOw==
 
 "@resolver-engine/core@^0.3.3":
   version "0.3.3"
@@ -1566,6 +1571,13 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
+META-upgrades@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/META-upgrades/-/META-upgrades-0.0.1.tgz#9ff5aa54aa4b29c8b5d597f7f2279ca503b0c8b9"
+  integrity sha512-diDyAhpejX5BMPtbtd+EuA6AMKJ6Ju9cQsbUbC9j6qoYfsCriKnQtp8hsSsRyI8detBqI08q2G+JajZE4luKUQ==
+  dependencies:
+    "@nomiclabs/hardhat-ethers" "^2.0.2"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1788,13 +1800,6 @@ anymatch@~3.1.1, anymatch@~3.1.2:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
-
-META-upgrades@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/META-upgrades/-/META-upgrades-0.0.1.tgz#9ff5aa54aa4b29c8b5d597f7f2279ca503b0c8b9"
-  integrity sha512-diDyAhpejX5BMPtbtd+EuA6AMKJ6Ju9cQsbUbC9j6qoYfsCriKnQtp8hsSsRyI8detBqI08q2G+JajZE4luKUQ==
-  dependencies:
-    "@nomiclabs/hardhat-ethers" "^2.0.2"
 
 arg@^4.1.0:
   version "4.1.3"
@@ -9484,11 +9489,12 @@ solc@^0.6.3:
     semver "^5.5.0"
     tmp "0.0.33"
 
-solhint-plugin-prettier@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/solhint-plugin-prettier/-/solhint-plugin-prettier-0.0.5.tgz#e3b22800ba435cd640a9eca805a7f8bc3e3e6a6b"
-  integrity sha512-7jmWcnVshIrO2FFinIvDQmhQpfpS2rRRn3RejiYgnjIE68xO2bvrYvjqVNfrio4xH9ghOqn83tKuTzLjEbmGIA==
+solhint-plugin-prettier@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/solhint-plugin-prettier/-/solhint-plugin-prettier-0.1.0.tgz#2f46999e26d6c6bc80281c22a7a21e381175bef7"
+  integrity sha512-SDOTSM6tZxZ6hamrzl3GUgzF77FM6jZplgL2plFBclj/OjKP8Z3eIPojKU73gRr0MvOS8ACZILn8a5g0VTz/Gw==
   dependencies:
+    "@prettier/sync" "^0.3.0"
     prettier-linter-helpers "^1.0.0"
 
 solhint@^3.2.0:
