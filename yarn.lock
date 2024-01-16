@@ -927,10 +927,10 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.8.3.tgz#cbef3146bfc570849405f59cba18235da95a252a"
   integrity sha512-bQHV8R9Me8IaJoJ2vPG4rXcL7seB7YVuskr4f+f5RyOStSZetwzkWtoqDMl5erkBJy0lDRUnIR2WIkPiC0GJlg==
 
-"@openzeppelin/upgrades-core@^1.24.1":
-  version "1.28.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/upgrades-core/-/upgrades-core-1.28.0.tgz#19405f272dc09e766c756d9d149cbd680168aef7"
-  integrity sha512-8RKlyg98Adv+46GxDaR0awL3R8bVCcQ27DcSEwrgWOp6siHh8sZg4a2l+2dhPl1510S6uBfhHSydMH5VX2BV5g==
+"@openzeppelin/upgrades-core@^1.32.3":
+  version "1.32.3"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/upgrades-core/-/upgrades-core-1.32.3.tgz#7f92aeab6f6c7300c8fa4c1cde14253b2bd62341"
+  integrity sha512-v04RbrBOTRiIhfkTRfY4M34I2wIcuz+K1cUk/6duulsMXvRpM6/IPWeXh+1Xr1K+xedJi7gcS/pNSXfYhYNXIg==
   dependencies:
     cbor "^9.0.0"
     chalk "^4.1.0"
@@ -939,7 +939,7 @@
     ethereumjs-util "^7.0.3"
     minimist "^1.2.7"
     proper-lockfile "^4.1.1"
-    solidity-ast "^0.4.26"
+    solidity-ast "^0.4.51"
 
 "@pkgr/utils@^2.4.2":
   version "2.4.2"
@@ -9733,10 +9733,10 @@ solhint@^4.0.0:
   optionalDependencies:
     prettier "^2.8.3"
 
-solidity-ast@^0.4.26:
-  version "0.4.52"
-  resolved "https://registry.yarnpkg.com/solidity-ast/-/solidity-ast-0.4.52.tgz#9f1a9abc7e5ba28bbf91146ecd07aec7e70f3c85"
-  integrity sha512-iOya9BSiB9jhM8Vf40n8lGELGzwrUc57rl5BhfNtJ5cvAaMvRcNlHeAMNvqJJyjoUnczqRbHqdivEqK89du3Cw==
+solidity-ast@^0.4.51:
+  version "0.4.55"
+  resolved "https://registry.yarnpkg.com/solidity-ast/-/solidity-ast-0.4.55.tgz#00b685e6eefb2e8dfb67df1fe0afbe3b3bfb4b28"
+  integrity sha512-qeEU/r/K+V5lrAw8iswf2/yfWAnSGs3WKPHI+zAFKFjX0dIBVXEU/swQ8eJQYHf6PJWUZFO2uWV4V1wEOkeQbA==
   dependencies:
     array.prototype.findlast "^1.2.2"
 
